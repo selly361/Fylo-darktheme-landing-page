@@ -13,6 +13,14 @@ header {
   background-color: hsl(217, 28%, 15%);
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+header nav {
+  width: 95vw;
+  height: 14vh;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
   font-family: "Raleway";
   font-size: 14px;
@@ -324,13 +332,14 @@ footer {
   height: 50px;
 }
 
-.nav-items {
+.footer-nav-items {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin: auto;
   align-items: center;
   flex-wrap: wrap;
+  color: white;
 }
 
 .location-info {
@@ -372,6 +381,13 @@ footer {
 }
 
 @media (max-width: 1068px){
+
+  .intro-section-content > h3 {
+    font-size: 5vmin;
+  
+  }
+  
+
   .stay-productive-section  {
     flex-flow: column;
     justify-content: center;
@@ -395,9 +411,7 @@ footer {
     width: 100vw;
   }
 
-  .nav-items {
 
-  }
 
   footer {
   min-height: 130vh;
